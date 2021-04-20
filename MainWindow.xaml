@@ -7,8 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button Content="Click On" HorizontalAlignment="Left" Height="56" Margin="326,260,0,0" VerticalAlignment="Top" Width="130" Click="Button_Click" FontSize="20"/>
-        <TextBox HorizontalAlignment="Left" Height="97" Margin="162,92,0,0" TextWrapping="Wrap" Text="Welcome to My Windows Application" VerticalAlignment="Top" Width="442" FontSize="22" TextChanged="TextBox_TextChanged" FontStyle="Italic" TextAlignment="Center"/>
+        <TextBox BorderThickness="0" HorizontalAlignment="Left" Height="97" Margin="164,92,0,0" TextWrapping="Wrap" Text="Welcome to My Windows Application" VerticalAlignment="Top" Width="442" FontSize="22" TextChanged="TextBox_TextChanged" FontStyle="Italic" TextAlignment="Center"/>
+        <Button Content="W8 Tracking" HorizontalAlignment="Left" Height="68" Margin="52,271,0,0" VerticalAlignment="Top" Width="207" Click="Button_Click" FontSize="20"/>
+        <Button Content="Document Querry" HorizontalAlignment="Left" Height="71" Margin="279,271,0,0" VerticalAlignment="Top" Width="188" FontSize="20" Click="Button_Click_1"/>
+        <Button Content="Investment Advisor" HorizontalAlignment="Left" Height="71" Margin="511,271,0,0" VerticalAlignment="Top" Width="188" Click="Button_Click_2" FontSize="20"/>
 
     </Grid>
 </Window>

@@ -55,6 +55,12 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="UI\Document_query.xaml.cs">
+      <DependentUpon>Document_query.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\InvestmentAdvisorReport.xaml.cs">
+      <DependentUpon>InvestmentAdvisorReport.xaml</DependentUpon>
+    </Compile>
     <Compile Include="UI\W8Tracking.xaml.cs">
       <DependentUpon>W8Tracking.xaml</DependentUpon>
     </Compile>
@@ -70,6 +76,14 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="UI\Document_query.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UI\InvestmentAdvisorReport.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="UI\W8Tracking.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

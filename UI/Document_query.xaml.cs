@@ -10,43 +10,63 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
-using Daiwa.UI;
 
-namespace Daiwa
+namespace Daiwa.UI
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for Document_query.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Document_query : Window
     {
-        public MainWindow()
+        public Document_query()
         {
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void RadioButton_Checked(object sender, RoutedEventArgs e)
         {
-            W8Tracking tr = new W8Tracking();
-            tr.Show();
+
         }
 
-        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        private void RadioButton_Checked_1(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void RadioButton_Checked_2(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ListBoxItem_Selected(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void listBox3_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
 
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            Document_query tr = new Document_query();
-            tr.Show();
+
         }
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
-            InvestmentAdvisorReport tr = new InvestmentAdvisorReport();
-            tr.Show();
+
+        }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

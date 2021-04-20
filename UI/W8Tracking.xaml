@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Daiwa.UI"
         mc:Ignorable="d"
-        Title="W8Tracking" Height="252" Width="539">
+        Title="W8 Tracking Renewal Due Report" Height="252" Width="539">
     <Grid Margin="0,25,19,34" HorizontalAlignment="Right" Width="484">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="25*"/>
@@ -24,7 +24,7 @@
         </Border>
 
         <TextBlock HorizontalAlignment="Left" Height="29" Margin="18,72,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="42" Grid.Column="1" FontWeight="Bold"><Run Text="Due "/><Run Text="in"/></TextBlock>
-        <ComboBox HorizontalAlignment="Left" Height="29" Margin="64,72,0,0" VerticalAlignment="Top" Width="260" SelectionChanged="ComboBox_SelectionChanged" Background="{x:Null}" Grid.Column="1" Grid.ColumnSpan="2">
+        <ComboBox HorizontalAlignment="Left" Height="29" Margin="64,72,0,0" VerticalAlignment="Top" Width="260" SelectionChanged="ComboBox_SelectionChanged" Background="{x:Null}" Grid.Column="1" Grid.ColumnSpan="2" Name="combobox">
             <ComboBoxItem Content="90 Days or less"/>
             <ComboBoxItem Content="B"/>
             <ComboBoxItem Content="C"/>

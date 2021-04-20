@@ -1,0 +1,28 @@
+﻿<Window x:Class="Daiwa.UI.InvestmentAdvisorReport"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Daiwa.UI"
+        mc:Ignorable="d"
+        Title="Investment Advisor Report" Height="450" Width="850">
+    <Grid>
+        <Label Content="Report Data Items" HorizontalAlignment="Left" Height="24" Margin="33,15,0,0" VerticalAlignment="Top" Width="195" FontWeight="Bold" FontStyle="Italic"/>
+        <ListBox BorderThickness="1" BorderBrush="Black" HorizontalAlignment="Left" Height="349" Margin="22,42,0,0" VerticalAlignment="Top" Width="392"></ListBox>
+        <CheckBox Content="ACCOUNT TYPE" HorizontalAlignment="Left" Height="17" Margin="22,42,0,0" VerticalAlignment="Top" Width="147" Checked="CheckBox_Checked"/>
+        <CheckBox Content="ACCT STATUS" HorizontalAlignment="Left" Height="24" Margin="22,56,0,0" VerticalAlignment="Top" Width="124" Checked="CheckBox_Checked"/>
+        <CheckBox Content="ACCT TYPE" HorizontalAlignment="Left" Height="24" Margin="22,71,0,0" VerticalAlignment="Top" Width="124" Checked="CheckBox_Checked"/>
+        <CheckBox Content="ADDRESS 1" HorizontalAlignment="Left" Height="24" Margin="22,85,0,0" VerticalAlignment="Top" Width="124" Checked="CheckBox_Checked"/>
+        <CheckBox Content="ADDRESS 2" HorizontalAlignment="Left" Height="24" Margin="22,100,0,0" VerticalAlignment="Top" Width="124" Checked="CheckBox_Checked"/>
+        <CheckBox Content="ADVISOR" HorizontalAlignment="Left" Height="24" Margin="22,114,0,0" VerticalAlignment="Top" Width="124" Checked="CheckBox_Checked"/>
+        <CheckBox Content="AML CATEGORY" HorizontalAlignment="Left" Height="24" Margin="22,129,0,0" VerticalAlignment="Top" Width="124" Checked="CheckBox_Checked"/>
+        <CheckBox Content="CHECKLIST BY" HorizontalAlignment="Left" Height="24" Margin="22,143,0,0" VerticalAlignment="Top" Width="124" Checked="CheckBox_Checked"/>
+        <CheckBox Content="CHECKLIST DATE" HorizontalAlignment="Left" Height="24" Margin="22,158,0,0" VerticalAlignment="Top" Width="124" Checked="CheckBox_Checked"/>
+        <CheckBox Content="CITY" HorizontalAlignment="Left" Height="24" Margin="22,172,0,0" VerticalAlignment="Top" Width="124" Checked="CheckBox_Checked"/>
+        <CheckBox Content="CONTACT PERSON" HorizontalAlignment="Left" Height="24" Margin="22,187,0,0" VerticalAlignment="Top" Width="124" Checked="CheckBox_Checked"/>
+        <Label  Foreground="Blue" Content="Select multiple data items by holding the CTRL key and clicking on &#xA;the item.&#xD;&#xA;Use the move bars (on the left) to reader the items for the report." HorizontalAlignment="Left" Height="82" Margin="429,42,0,0" VerticalAlignment="Top" Width="413" FontWeight="Bold"/>
+        <Button Content="OK" HorizontalAlignment="Left" Height="54" Margin="498,172,0,0" VerticalAlignment="Top" Width="83"/>
+        <Button Content="Close" HorizontalAlignment="Left" Height="54" Margin="615,172,0,0" VerticalAlignment="Top" Width="83"/>
+
+    </Grid>
+</Window>
