@@ -22,7 +22,7 @@
         <CheckBox Content="CONTACT PERSON" HorizontalAlignment="Left" Height="24" Margin="22,187,0,0" VerticalAlignment="Top" Width="124" Checked="CheckBox_Checked"/>
         <Label  Foreground="Blue" Content="Select multiple data items by holding the CTRL key and clicking on &#xA;the item.&#xD;&#xA;Use the move bars (on the left) to reader the items for the report." HorizontalAlignment="Left" Height="82" Margin="429,42,0,0" VerticalAlignment="Top" Width="413" FontWeight="Bold"/>
         <Button Content="OK" HorizontalAlignment="Left" Height="54" Margin="498,172,0,0" VerticalAlignment="Top" Width="83"/>
-        <Button Content="Close" HorizontalAlignment="Left" Height="54" Margin="615,172,0,0" VerticalAlignment="Top" Width="83"/>
+        <Button Content="Close" HorizontalAlignment="Left" Height="54" Margin="615,172,0,0" VerticalAlignment="Top" Width="83" Click="Button_Click_1"/>
 
     </Grid>
 </Window>

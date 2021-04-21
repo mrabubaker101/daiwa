@@ -46,13 +46,17 @@ namespace Daiwa.UI
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
-            var a = "RadioButton";
-            var b = "ComboBox";
+            
         }
 
         private void Button_Click_3(object sender, RoutedEventArgs e)
         {
             this.Close();
+        }
+
+        private void RadioButton_Checked_1(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

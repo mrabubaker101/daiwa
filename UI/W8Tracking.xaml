@@ -18,8 +18,8 @@
         </Grid.RowDefinitions>
         <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="54" Margin="6,7,0,0" VerticalAlignment="Top" Width="412" Grid.Column="1" Grid.ColumnSpan="2">
             <StackPanel Margin="10,10,10,0" Height="63" VerticalAlignment="Top" RenderTransformOrigin="0.494,0.905">
-                <RadioButton  Width="391" Height="22" FontSize="12px" FontWeight="Bold">Full report</RadioButton>
-                <RadioButton Height="32" Width="391" FontSize="12px" Content="Renewal report" Margin="0,0,-2,0" FontWeight="Bold"/>
+                <RadioButton Name="btn1" Width="391" Height="22" FontSize="12px" FontWeight="Bold">Full report</RadioButton>
+                <RadioButton Height="32" Width="391" FontSize="12px" Content="Renewal report" Margin="0,0,-2,0" FontWeight="Bold" Checked="RadioButton_Checked_1"/>
             </StackPanel>
         </Border>
 
