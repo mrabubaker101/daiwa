@@ -23,10 +23,11 @@ namespace Daiwa.UI
         {
             InitializeComponent();
         }
-
+//RadioButton Value Get here
         string options1 = "";
         string options2 = "";
         string options3 = "";
+        string listboxes1 = "";
         private void RadioButton_Checked(object sender, RoutedEventArgs e)
         {
 
@@ -81,6 +82,14 @@ namespace Daiwa.UI
             string OP2 = options2;
             string OP3 = options3;
 
+            string[] lstItems = new string[listBox1.SelectedItems.Count];
+
+            for (int i = 0; i < listBox1.SelectedItems.Count; i++)
+            {
+                string A = listBox1.SelectedItems[i].ToString();
+                A = A.Substring(A.IndexOf(':') + 2);
+                lstItems[i] = A;          
+            }
 
 
         }
@@ -113,28 +122,47 @@ namespace Daiwa.UI
 
         private void RadioButton_Checked_3(object sender, RoutedEventArgs e)
         {
-            var fourth = opt4.ToString();
+            options2 = opt4.ToString();
 
         }
 
         private void opt5_Checked(object sender, RoutedEventArgs e)
         {
-            var fifth = opt5.ToString();
+            options2 = opt5.Content.ToString();
         }
 
         private void opt7_Checked(object sender, RoutedEventArgs e)
         {
-
+            options3 = opt7.Content.ToString();
         }
 
         private void opt6_Checked(object sender, RoutedEventArgs e)
         {
-
+            options3 = opt6.Content.ToString();
+               
         }
 
         private void opt1_Checked(object sender, RoutedEventArgs e)
         {
             options1 = opt1.Content.ToString();
+        }
+
+        private void opt8_Checked(object sender, RoutedEventArgs e)
+        {
+            options3 = opt8.Content.ToString();
+        }
+
+        private void listBox2_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (listBox2.SelectedItem != null)
+            {
+                MessageBox.Show(listBox2.SelectedItem.ToString());
+            }
+        }
+
+        private void listBox3_SelectionChanged_1(object sender, SelectionChangedEventArgs e)
+        {
+
         }
     }
 }
